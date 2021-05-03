@@ -1,0 +1,19 @@
+{
+  "name": "kg_willpabs_2019",
+  "version": "1.0.0",
+  "description": "Kargo Intern Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillPabs/kg_WillPabs_2019.git"
+  },
+  "author": "WillPabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillPabs/kg_WillPabs_2019/issues"
+  },
+  "homepage": "https://github.com/WillPabs/kg_WillPabs_2019#readme"
+}
