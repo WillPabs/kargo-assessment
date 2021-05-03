@@ -10,3 +10,4 @@ export const Numbers = {
     8: 'Eight',
     9: 'Nine',
 };
+
