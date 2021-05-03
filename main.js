@@ -1,4 +1,4 @@
-import { Numbers, mapToArray, digitsToLetters } from './utils.js';
+import { mapToArray, digitsToLetters } from './utils.js';
 
 const num = process.argv.slice(2);
 num[0] = Number(num[0]);
