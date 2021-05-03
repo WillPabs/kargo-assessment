@@ -1,0 +1,23 @@
+{
+  "name": "kg_willpabs_2019",
+  "version": "1.0.0",
+  "description": "kargo intern assessment",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillPabs/kg_WillPabs_2019.git"
+  },
+  "author": "William Pabitero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillPabs/kg_WillPabs_2019/issues"
+  },
+  "homepage": "https://github.com/WillPabs/kg_WillPabs_2019#readme",
+  "dependencies": {
+    "prompt": "^1.1.0"
+  },
+  "type": "module"
+}
