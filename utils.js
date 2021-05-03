@@ -11,3 +11,43 @@ export const Numbers = {
     9: 'Nine',
 };
 
+export function mapToArray(args) {
+    let digits = [];
+
+    for (let index = 0; index < args.length; index++) {
+    
+    let stringNumber = args[index].toString().split('');
+    digits.push(stringNumber.map(Number));
+    }
+
+    return digits;
+}
+
+export function digitsToLetters(digits) {
+    let answer = [];
+    let keys = Object.keys(Numbers);
+
+    for (let i = 0; i < digits.length; i++) {
+
+        let numWord = '';
+
+        for (let j = 0; j < digits[i].length; j++) {
+
+            if (isNaN(digits[i][j])) {
+
+                numWord += 'NaN';
+                break;
+
+            } else if (digits[i][j] == keys[digits[i][j]]) {
+
+                numWord += (Numbers[digits[i][j]]);            
+
+            }
+        }
+
+        answer.push(numWord);
+
+    }
+    
+    return answer;
+}
